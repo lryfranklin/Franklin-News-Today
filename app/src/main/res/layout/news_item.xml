@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    tools:background="@color/background"
+    android:minHeight="@dimen/list_item_height">
+
+    <TextView
+        android:id="@+id/news_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        tools:text="Article"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        tools:textColor="@android:color/darker_gray"
+        android:textSize=""
+        android:paddingTop="@dimen/small_padding"
+        android:paddingLeft="@dimen/small_padding"
+        android:minHeight="20dp" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/news_type"
+        android:layout_above="@+id/news_time"
+        android:maxLines="2"
+        tools:text="NRL adds another level to officiating quagmire with captain's challenge | Nick Tedeschi"
+        android:ellipsize="end"
+        android:gravity="top"
+        tools:textColor="@android:color/black"
+        android:textSize="@dimen/title_size"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"/>
+
+    <TextView
+        android:id="@+id/news_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:text="2012-01-25"
+        tools:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/context_size"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingBottom="@dimen/extra_small_padding"/>
+
+
+</RelativeLayout>

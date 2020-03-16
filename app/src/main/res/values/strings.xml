@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">News Today from Guardian</string>
+
+    <string name="title_sports">Sports</string>
+    <string name="title_politics">Politics</string>
+    <string name="title_world">World</string>
+    <string name="title_env">Environment</string>
+    <string name="title_business">Business</string>
+
+    <string name="no_news_found">No news found for today.</string>
+    <string name="no_internet">No Internet connection.</string>
+
+    <string name="base_url">https://content.guardianapis.com/search?section=</string>
+    <string name="from_date">from-date=</string>
+    <string name="to_date">to-date=</string>
+    <string name="api_key">api-key=429b7e9e-6780-4577-a51c-256e97d84ead</string>
+
+    <string name="sports">sport</string>
+    <string name="politics">politics</string>
+    <string name="env">environment</string>
+    <string name="world">world</string>
+    <string name="business">business</string>
+</resources>
+
+    

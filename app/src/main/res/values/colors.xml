@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#4A312A</color>
+    <color name="primary_color_dark">#520202</color>
+    <color name="background">#ff4a4a</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <color name="context_politics">#bababa</color>
+    <color name="background_politics">#000000</color>
+    <color name="title_politics">#FFFFFF</color>
+
+    <color name="context_sports">#FFFFFF</color>
+    <color name="background_sports">#10CAC9</color>
+    <color name="title_sports">#000000</color>
+
+    <color name="context_world">#bababa</color>
+    <color name="background_world">#c700a9</color>
+    <color name="title_world">#FFFFFF</color>
+
+    <color name="context_env">#bababa</color>
+    <color name="background_env">#379237</color>
+    <color name="title_env">#FFFFFF</color>
+
+    <color name="context_business">#bababa</color>
+    <color name="background_business">#0077FF</color>
+    <color name="title_business">#FFFFFF</color>
+
+</resources>
